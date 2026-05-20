@@ -1,17 +1,9 @@
-# Declarar vector con 7 notas
-notas = []
-suma = 0
-# Ingresar notas
-for i in range(7):
-    nota = float(input("Ingrese la nota " + str(suma + 1) + ": "))
-    notas.append(nota)
+# Se crea vector de los 10 números enteros
+Enteros = [ 2, 5, 10, 19, 25, 35, 47, 53, 67, 91]
 
-# Calcular resultados
-nota_mayor = max(notas)
-nota_menor = min(notas)
-promedio = sum(notas) / len(notas)
+print ("Números originales:", Enteros)
 
-# Mostrar resultados
-print("La nota mayor es:", nota_mayor)
-print("La nota menor es:", nota_menor)
-print("Promedio:", promedio)
+# Se cambia valor del quinto elemento por 99
+Enteros [5] = 99
+
+print ("Números despues de la modificación:", Enteros)

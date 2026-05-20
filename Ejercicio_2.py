@@ -1,12 +1,14 @@
 # Declarar vector con 7 notas
 notas = []
+suma = 0
 
 # Ingresar notas
 for i in range(7):
     nota = float(input(f"Ingrese la nota {i+1}: "))
     notas.append(nota)
+    suma += nota
 
-# Calcular resultados
+# Calcular notas mayor, menor y promedio
 nota_mayor = max(notas)
 nota_menor = min(notas)
 promedio = sum(notas) / len(notas)
