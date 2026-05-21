@@ -1,0 +1,1 @@
+1.	Explica en tus palabras la diferencia fundamental entre un vector y una matriz. Da un ejemplo simple en pseudocódigo o Python de cada uno.

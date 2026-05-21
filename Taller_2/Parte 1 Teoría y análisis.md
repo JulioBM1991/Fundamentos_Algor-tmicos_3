@@ -1,2 +1,0 @@
-1.	Explica en tus palabras la diferencia fundamental entre un vector y una matriz. Da un ejemplo simple en pseudocódigo o Python de cada uno.
-Respuesta: Un vector es una estructura unidimensional del mismo tipo ya sea fila o columna: mientras una matriz es bidimensional filas y columnas.
